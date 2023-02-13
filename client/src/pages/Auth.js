@@ -21,7 +21,7 @@ function Auth() {
   };
 
   const handleLogin = () => {
-    if (username === "ezekiel" && password === "optimism") {
+    if (username === "user" && password === "123") {
       navigate("/jobs");
     } else {
       setWrongCred(true);
