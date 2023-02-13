@@ -1,0 +1,106 @@
+.form-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-top: 15rem;
+}
+
+.form {
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.company-name {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.company-name::placeholder {
+  opacity: 0.4;
+}
+
+.type-container,
+.answer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.radio-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.when {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-general {
+  align-self: center;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-general:hover {
+  transform: translate(-2px);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.to-applied-jobs:hover {
+  transform: translate(-50%, -2px);
+}
+
+.btn-general:active {
+  transform: translateY(0px);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn-input {
+  margin-top: 4rem;
+}
+
+.to-applied-jobs {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.error-message {
+  font-size: 3rem;
+  color: red;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,25 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.auth-container input {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+
+.auth-container input::placeholder {
+  opacity: 0.4;
+}
+
+.failed-login {
+  color: red;
+  font-size: 2rem;
+  text-align: center;
+}
